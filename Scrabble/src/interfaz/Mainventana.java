@@ -17,7 +17,7 @@ public class Mainventana extends JFrame implements ActionListener{
 		ImageIcon vent = new ImageIcon("src/interfaz/images/ventana.png");
 		ImageIcon icono = new ImageIcon("src/interfaz/images/Icono.png");
 		setIconImage(icono.getImage());
-		
+		System.out.println("hola");
 		
 		JLabel ventana = new JLabel(vent);
 		ventana.setBounds(0, 0, 600,600);
