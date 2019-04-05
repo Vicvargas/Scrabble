@@ -252,6 +252,11 @@ public class Tablero extends JFrame{
 			A15.setBounds(735,34,49,50);
 			add(A15);
 			
+			
+			
+			
+			
+			
 			B1 = new JLabel();
 			B1.setBounds(36,84,49,50);
 			add(B1);
@@ -905,6 +910,7 @@ public class Tablero extends JFrame{
 			
 			A1.addMouseListener(listener);
 			A1.setTransferHandler(new TransferHandler("icon"));
+			
 			
 			A2.addMouseListener(listener);
 			A2.setTransferHandler(new TransferHandler("icon"));
