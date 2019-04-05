@@ -6,10 +6,10 @@ public class ListaEnlazadaSimple <T>{
 
 	public ListaEnlazadaSimple() {
 		len = 0;
-		first = null;}
+		setFirst(null);}
 
 	public boolean isEmpty() {
-		return this.first == null; }
+		return this.getFirst() == null; }
 
 	public int getLen() {
 		return this.len;}
@@ -18,10 +18,10 @@ public class ListaEnlazadaSimple <T>{
 		Nodo <T> newNodo = new Nodo <T>();
 		newNodo.setData(data);
 		if(isEmpty()) {
-			this.first = newNodo;
+			this.setFirst(newNodo);
 			len += 1;}
 		else {
-			Nodo <T> aux = this.first;
+			Nodo <T> aux = this.getFirst();
 			while (aux.getNext()!= null) {
 				aux = aux.getNext();}
 			aux.setNext(newNodo);
@@ -32,9 +32,9 @@ public class ListaEnlazadaSimple <T>{
 	
 	public void deleteLast() {
 		Nodo<T> aux = new Nodo<T>();
-		aux = first;
+		aux = getFirst();
 		if(isEmpty() || len == 1 ) {
-			first = null;
+			setFirst(null);
 		}
 		else {
 			while(aux.getNext().getNext()!=null){
@@ -46,10 +46,18 @@ public class ListaEnlazadaSimple <T>{
 	}
 	
 	public void print() {
-		Nodo <T> aux = this.first;
-		while (aux!= null) {
+		Nodo <T> aux = this.getFirst();
+		while (aux != null) {
 			System.out.println(aux.getData());
 			aux = aux.getNext();}
+	}
+
+	public Nodo <T> getFirst() {
+		return first;
+	}
+
+	public void setFirst(Nodo <T> first) {
+		this.first = first;
 	}
 }
 
