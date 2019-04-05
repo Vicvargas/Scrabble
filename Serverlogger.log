@@ -1,0 +1,8 @@
+[ERROR] 2019-04-03 03:26:02.641 [main] ServerLogger - Algo fallo en el cliente
+[ERROR] 2019-04-03 03:32:12.671 [Thread-0] ServerLogger - Algo fallo en ClientHandler
+[ERROR] 2019-04-03 03:42:28.538 [main] ServerLogger - Algo fallo en el servidor
+[ERROR] 2019-04-04 03:13:57.877 [main] ServerLogger - Algo fallo en el cliente
+[ERROR] 2019-04-04 18:02:37.573 [main] ServerLogger - Algo fallo en el servidor
+[ERROR] 2019-04-04 18:13:59.700 [main] ServerLogger - Algo fallo en el cliente
+[ERROR] 2019-04-04 18:14:10.870 [main] ServerLogger - Algo fallo en el cliente
+[ERROR] 2019-04-04 18:15:59.616 [main] ServerLogger - Algo fallo en el servidor
