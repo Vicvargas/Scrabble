@@ -62,5 +62,5 @@ public class validacion {
 	            }
 	        }
 	    }
-	}//Fin programa de búsqueda de texto en un archivo
+	}//Fin programa de búsqueda de texto en un arch
 
