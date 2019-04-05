@@ -35,7 +35,7 @@ public class Mainventana extends JFrame implements ActionListener{
         
         public void actionPerformed(ActionEvent e) {
                 this.setVisible(false);
-                new Tablero().setVisible(true);
+                new Tabblero().setVisible(true);
             }
        
 	
