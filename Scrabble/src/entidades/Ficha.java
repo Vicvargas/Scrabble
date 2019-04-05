@@ -136,6 +136,7 @@ public class Ficha {
 	
 	public String[] getListaPaths() {
 		return listaPaths;
+		
 	}
 
 	public void setListaPaths(String[] listaPaths) {
