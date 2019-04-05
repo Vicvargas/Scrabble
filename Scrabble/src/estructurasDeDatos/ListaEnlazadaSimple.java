@@ -26,9 +26,7 @@ public class ListaEnlazadaSimple <T>{
 				aux = aux.getNext();}
 			aux.setNext(newNodo);
 			len+=1;
-
 		}
-
 	}
 	
 	
@@ -52,7 +50,6 @@ public class ListaEnlazadaSimple <T>{
 		while (aux!= null) {
 			System.out.println(aux.getData());
 			aux = aux.getNext();}
-		
 	}
 }
 
