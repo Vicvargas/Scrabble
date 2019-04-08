@@ -12,7 +12,6 @@ public class DragMouseAdapter extends MouseAdapter{
 		JComponent c = (JComponent) e.getSource();
 		TransferHandler handler = c.getTransferHandler();
 		handler.exportAsDrag(c, e, TransferHandler.COPY);
-		
 		//System.out.println(A.getValor());
 	}
 	

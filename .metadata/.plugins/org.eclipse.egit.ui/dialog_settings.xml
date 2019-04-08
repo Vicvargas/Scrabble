@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item value="537" key="DIALOG_X_ORIGIN"/>
+		<item value="245" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\abiga\Desktop\Scrabble\.git">
+			<item value="false"/>
+			<item value="abiga &lt;abiga@192.168.0.22&gt;"/>
+			<item value="Metodo que obtiene puntaje"/>
+			<item value="abiga &lt;abiga@192.168.0.22&gt;"/>
+			<item value="3c98d1fd651575d7fd325198e6429fc7e82ba4e5"/>
+			<item value="0"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>
